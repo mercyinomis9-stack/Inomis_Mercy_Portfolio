@@ -1,0 +1,133 @@
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #f5e6d3;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fffaf5;
+}
+
+/* Header Section */
+.header {
+    background-color: #d9a679;
+    padding: 30px 20px;
+}
+
+h1 {
+    color: #3d291f;
+}
+
+.tagline {
+    font-size: 18px;
+    font-style: italic;
+    color: #654b3c;
+    margin-bottom: 10px;
+}
+
+.header img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+/* Navigation Bar */
+nav.navbar {
+    background-color: #654b3c;
+    padding: 5px 15px;
+}
+
+nav .nav-link {
+    color: white !important;
+    font-weight: bold;
+    padding: 5px 12px !important;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+nav .nav-link:hover {
+    background-color: #d9a679;
+    color: #3d291f !important;
+}
+
+/* Headings & Text */
+h2 {
+    color: #654b3c;
+    font-size: 26px;
+    border-bottom: 2px solid #d9a679;
+    padding-bottom: 4px;
+}
+
+h3 {
+    color: #654b3c;
+    background-color: #f5e6d3;
+    border-left: 4px solid #a66a43;
+    padding: 8px 12px;
+    font-size: 18px;
+}
+
+/* Hobbies Section */
+#Hobbies label {
+    display: block;
+    background-color: #f5e6d3;
+    padding: 8px 12px;
+    width: 200px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+/* Simple Carousel Styling */
+#simpleCarousel .carousel-item img {
+    max-height: 250px;
+    object-fit: contain;
+}
+
+#Projects h1 {
+    text-align: center;
+    color: #3d291f;
+}
+
+/* Contact Section & Form Elements */
+.Contact {
+    background-color: #fdf5ed;
+}
+
+textarea {
+    border-radius: 8px;
+    font-size: 15px;
+    border: 1px solid #654b3c;
+}
+
+/* Submit and Reset Buttons */
+.btn-action {
+    background-color: #654b3c;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    width: 120px;
+    padding: 8px 0;
+    text-align: center;
+}
+
+.btn-action:hover {
+    background-color: #a66a43;
+    color: white;
+}
+
+/* Footer Section */
+footer {
+    background-color: #3d291f !important;
+    color: white;
+}
